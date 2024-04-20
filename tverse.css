@@ -1,226 +1,73 @@
 body {
-    height: 100vh;
     background-color: #ffffff9f;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .block {
+    padding: 1em;
+    background-color: rgb(36, 34, 86);
+  }
+  
+  .block h1 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mail,
+  .call {
+    margin: 0.5em 0;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: rgb(36, 34, 86);
+    padding: 1em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0.5em 1em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    background-color: rgb(172, 210, 253);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
   }
   
   .container {
     text-align: center;
-    margin: 3em;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
+    padding: 2em;
   }
   
   .image {
-    /* display: block; */
-    margin-left: 3em;
-    width: 700px;
-    border-radius: 5px;
-    border: 0px solid #333;
-    /* margin-bottom: 0em; */
+    width: 100%;
+    max-width: 700px;
+    height: auto;
   }
   
   .text {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     color: #333;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  li {
-    list-style: none;
-    text-transform: capitalize;
-    padding: 15px 15px;
-    font-weight: bolder;
-    /* background-color: yellow;     */
-}
-nav a {
-    text-decoration: none;
-    color: rgb(179, 144, 233);
-   
-}
-
-nav ul {
-    display: flex;
-    justify-content: left;
-    float: left;
-    justify-content: space-between;    
-} 
-nav {
-    background-color: rgb(36, 34, 86);
-    height: 90px;
-    padding: 1%;
-}
-#search {
-    width: 30%;
-    height: 50%;
-    border-radius: 10px;
-    float: right;
-    /* margin-left: 950px; */
-    margin: 15px 15px;
-}
-
-nav a:hover {
-    color: white;
-    background-color: rgb(172, 210, 253);
-    padding: 5px;
-    border-radius: 0%;
-    transition: all 0.6s ease-in-out;
-}
-li.active{
-    background-color: rgb(64, 80, 91);
-    /* padding: 1%; */
-}
-.block {
-    margin-left: 10%;
-    /* background-color: blueviolet; */
-    height: 100px;
-    width: 80%;
-    margin-top: 1%;
-
-    /* display: inline; */
-}
-.uni {
-    font-size: 60%;
-}
-.codersuni {
-    /* background-color: rgb(255, 0, 13); */
-    width: 140px;
-    height: fit-content;
-    display: inline;
-    float: left;
-    font-size: 200%;
-    font-weight: 900;
-    margin: 1%;
-    margin-left: 5%;
-
-}
-.mail {
-    margin: 1%;
-    float: left;
-    /* background-color: brown; */
-    margin-left: 5%;
-    font-size: 150%;
-}
-.call {
-    margin: 1%;
-    float: left;
-    /* background-color: brown; */
-    margin-left: 5%;
-    font-size: 150%;
-}
-.box {
-    margin: 1%;
-    float: left;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    margin-left: 5%;
-    font-size: 150%;
-    padding: 5px;
-}
-.box:hover {
-    background-color: white;
-    border: 1px solid  rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
-}
-.clear {
-    clear: both;
-}
-.aboutus {
-    background-color: pink;
-    height: 250px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    font-size: 300%;
-    padding-top: 0%;
-}
-.txtpic{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 600px;
-
-}
-.txt {
-    /* background-color: black; */
-    height: 90%;
-    width: 45%;
-    float: left;
-    margin-left: 10%;
-    font-size: 110%;
-    color:rgb(29, 34, 38);
-    margin-top: 2%;
-    display: inline;
-}
-#sidepic {
-    float: left;
-    margin-left: 10%;
-}
-.txtpic2{
-    background-color: rgb(67, 29, 29);
-    width: 100%;
-    height: 500px;
-}
-
-.saboutus{
-    color: white;
-    background-color: rgb(78, 73, 73);
-    width: 80%;
-    height: 800px;
-    margin-top: 8%;
-    margin-left: 15%;
-    text-align: center;
-    font-size: 150%;
-}
-.ltxt {
-    font-size: 90%;
-}
-
