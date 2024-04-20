@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; Hide overflow */
+}
+.navbar {
+  position: fixed;
+  display: block;
+  height: 50px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.home {
+  height: 700px;
+  background-image: url("image/istockphoto-1646500565-170667a.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:right;
+  color: white;
+}
+.tverse-img {
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  height: auto;
+  float: left;
+  display: flex;
+}
+nav {
+  padding: 1%;
+}
+nav li {
+  font-weight: bolder;
+  float: right;
+  display: inline;
+  list-style: none;
+  margin-right: 2%;
+  color: white;
+}
+li:hover {
+  color: orangered;
+  font-weight: bolder;
+
+}
+.clear{
+  clear: both;
+}
+.container {
+  /* margin-left: 30%; */
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.tverse-button {
+  width: 280px;
+  height: 40px;
+  font-size: 100%;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: orange;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.tverse-button:hover {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+
+}
+
+.service {
+  background-color: rgb(255, 255, 255);
+  padding-top: 10%;
+  text-align: center;
+  justify-content: center;
+}
+h3 {
+  margin-bottom: 7%;
+}
+.enroll {
+  margin: 1px;
+  width: 400px;
+  height: 40px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 10px;
+  border-bottom: rgb(77, 22, 2) solid 5px;
+
+}
+#btn-enroll {
+  margin: 1px;
+  width: 90px;
+  height: 40px;
+  background-color: orangered;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  margin-bottom: 300px;
+}
+#btn-enroll:hover {
+  border: orangered solid 3px;
+  color: orangered;
+  background-color: white;
+  font-weight: bold;
+}
+hr {
+  border: rgb(77, 22, 2) solid 2px;
+}
+.connect {
+  text-align: center;
+  margin-left: 6%;  
+  color: brown;
+}
+
+.connector {
+  /* background-color: aquamarine; */
+  margin-bottom: 100px;
+}
+.end {
+  background-color: rgb(1, 1, 10);
+  color: white;
+  height: 55px;
+  text-align: center;
+  padding-top: 1%;
+}
