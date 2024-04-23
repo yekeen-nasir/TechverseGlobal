@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
   margin: 0;
@@ -15,10 +15,12 @@ body {
 }
 .home {
   height: 700px;
-  background-image: url("image/istockphoto-1646500565-170667a.webp");
+  background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.1);
+  background-image: url("image/tvg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:fixed;
+  background-position: top;
   color: white;
 }
 .tverse-img {
@@ -74,13 +76,20 @@ li:hover {
 }
 
 .service {
-  background-color: rgb(0, 0, 0);
+  background: 
+        linear-gradient(rgba(48, 47, 47, 0.5), rgba(66, 63, 63, 0.4)), /* Gradient for background color */
+        url("image/WhatsApp\ Image\ 2024-04-22\ at\ 5.32.03\ PM.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 10%;
   text-align: center;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: left;
 }
 h3 {
   margin-bottom: 7%;
+  font-weight: bolder;
 }
 .enroll {
   margin: 1px;
@@ -90,7 +99,7 @@ h3 {
   border-right: 0px;
   border-left: 0px;
   border-bottom: 10px;
-  border-bottom: rgb(77, 22, 2) solid 5px;
+  border-bottom: rgb(95, 38, 18) solid 5px;
 
 }
 #btn-enroll {
@@ -114,7 +123,8 @@ hr {
 }
 .connect {
   text-align: center;
-  margin-left: 6%;  
+  margin-left: 6%; 
+  padding-bottom: 5%;
   color: brown;
 }
 
